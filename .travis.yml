@@ -1,12 +1,16 @@
 language: ruby
 rvm:
-- ruby 2.4.1
-
+- 2.4.1
 script:
 - bundle exec jekyll build
-
 env:
   global:
-  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
-
-sudo: false # route your build to the container-based infrastructure for a faster build
+  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+sudo: false
+deploy:
+  provider: heroku
+  api_key:
+    secure: BuSSGPnzRojMB0fPqrYwPvHjJOjZpifKMoNVmBgDBDYJJsnzxtdYydjuvk7tgqcepL6nOyzE9qSTqvm2YTBG6SzDT6+JleTQfKgCKNhejrA1kFS22z8QQASY1tI+FDCRa34klnWIsPoVFB/YIEda9h4wmJYcXrhCGJcNoby4u7fVQp30j0aWg3ywtl2+zXphfomu0bK1MFTZV6tFk0CZDPcAHdKlHcIdozKLKk61rbEuf/aa3HX/Dkd29xNAIrQItn7dpe/Ai4ENn4ycEdm1XP58mTg5FovrbtfCcnBuBwjcLdF/qcHO6kJctAkjuQ674sHxH8Ks89HDd4PTx56hEKJlxdFDig68/p49EeRP8+QO05Ss5lN2QjwJHwUdFs7G4KRuUGeg4rWDpVmupcj/6OYaa7WyddDtz2t+lUZKK5OC0yIbmbfzny0k95W6M7x6gqpcTjvP0mWobY5VhFWT8UNZ4iU4aZLcIFfAU6SQE1f64M5ntekr3sRSqnoch3GxZx/XFszgBWZs7Fg3PBom61n5Mg/4AcnRxSNVuxgLsH0fU1hLoQvnma9MybQKlwHCaXQxXvTilLiVPjGxRx2QkLjcYAlFBjW+mt+FAKR77b6oNvUnbOdJG2eDhkdmxtasXZ0re4Gt/OToerZejgmoxTFKusXzCnHXQLQWvGBL56E=
+  app: 'yes'
+  on:
+    repo: rmachin/rmachin_web
