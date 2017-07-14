@@ -1,0 +1,40 @@
+---
+layout: post
+title:  "DockIT"
+date:   2017-06-29 15:08:10 -0500
+img: img/portfolio/dockit.png
+modalID: modalDockIt
+category: Web Development
+---
+DockIT is your solution for tracking events with platforms like Eventbrite and Ticketmaster using your computer, tablet or mobile device. It is primarily used to track saved(pending) events you want attend in your Dock(safe in user dashboard). You can delete the event from your Dock(dashboard) at any time or sync the event to your google calendar when you are ready to go. Avoid a messy calendar with too many missing events, just DockIT and enjoy your show.
+
+We used Eventbrite and Ticketmaster APIs to connect the application using HTTParty with Ruby on Rails, we combined different parameters using Ruby methods to filter the information from the APIs, the parameters content was sent to the database using hidden field tags to save the information on the DockIT page or user Dock(dashboard). The front end was designed using bootstrap version 4, aimed for mobile first, second tablets and finally the desktop.
+
+#### Technologies Used
+
+
+##### * Ruby version 2.4.1
+
+##### * Rails version 5.1.1
+
+##### * Bootstrap 4 ruby gem
+
+##### * jQuery
+
+##### * API EventBrite
+
+##### * API TicketMaster
+
+##### * Html5, CSS3 and JS.
+
+#### Future Features
+
+##### + Text Notifications
+
+##### + Social Media Integration
+
+##### + Google Vision Integration
+
+##### + Google Chrome Extension
+
+# [Open GitHub Project](https://github.com/rmachin/dockit)

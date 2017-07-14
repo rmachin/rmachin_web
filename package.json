@@ -1,0 +1,36 @@
+{
+  "name": "easy-sync-jekyll",
+  "version": "0.0.1",
+  "description": "A starter project including full setup for Jekyll, GulpJS, Pug(Jade), SASS & BrowserSync",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Raphael Machin",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.8.8",
+    "gulp-autoprefixer": "4.0.0",
+    "gulp-pug": "^3.3.0",
+    "gulp-pug-linter": "^0.5.1",
+    "gulp-sass": "^3.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rmachin/rm-web-portfolio.git"
+  },
+  "keywords": [
+    "jekyll",
+    "gulp",
+    "sass",
+    "pug",
+    "browsersync"
+  ],
+  "bugs": {
+    "url": "https://github.com/rmachin/rm-web-portfolio.git"
+  },
+  "homepage": "https://github.com/rmachin/rm-web-portfolio.git",
+  "dependencies": {
+    "uuid": "^3.1.0"
+  }
+}

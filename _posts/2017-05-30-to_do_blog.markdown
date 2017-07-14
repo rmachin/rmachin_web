@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "To-Do Blog"
+date:   2017-05-30 15:08:10 -0500
+img: img/portfolio/todo-blog.png
+modalID: modalToDoBlog
+category: Web Development
+---
+
+The point of this exercise is to demonstrate that, if you think about your models (building blocks, in my case I only needed a todo item) Rails can automatically generate a sample website using scaffold.
+
+Then, all you have to do is make some adjustments to get a demo working.
+
+
+# [Open GitHub Project](https://github.com/rmachin/Todo-Blog)
