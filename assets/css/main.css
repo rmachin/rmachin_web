@@ -401,7 +401,8 @@ a, a:hover, a:focus, a:active, a.active {
   text-decoration: none; }
 
 h3 {
-  color: red; }
+  color: red;
+  text-align: center; }
 
 .modal-body > p {
   text-align: justify; }
@@ -458,14 +459,15 @@ section.success {
 .panel-body > p {
   color: black; }
 
-h3, h4, h5, h6, ul {
+h4, h5, h6, ul {
   color: black;
   top: 0px;
-  bottom: 0px; }
+  bottom: 0px;
+  margin-left: 15px; }
 
-h3 {
+#objective > p {
   text-align: center;
-  color: red; }
+  font-weight: 700; }
 
 p, ul {
   margin-top: 10px; }
@@ -477,6 +479,35 @@ p, ul > li {
   text-transform: none;
   padding: 3px;
   line-height: 22px; }
+
+.panel {
+  margin-bottom: 10px;
+  background-color: #e0e8f2;
+  -webkit-border-radius: 15px;
+          border-radius: 15px;
+  -webkit-box-shadow: 0 -3px 5px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 -3px 5px rgba(0, 0, 0, 0.1); }
+
+.panel-heading {
+  -webkit-border-radius: 100px;
+          border-radius: 100px;
+  width: 36%;
+  margin: 8px 0px 0px 6px; }
+  .panel-heading h3 {
+    color: rgba(186, 9, 9, 0.86);
+    font-size: 1.5em;
+    text-align: left;
+    margin-left: 5px; }
+  .panel-heading h4 {
+    margin-left: 15px; }
+
+.panel-default {
+  border-color: #e0e8f2; }
+  .panel-default:last-child .panel-heading {
+    border-color: darkgrey; }
+
+#expert {
+  margin: 4px 5px; }
 
 .btn-success:hover, .btn-success:focus, .btn-success:active {
   background-color: red;
@@ -498,6 +529,10 @@ p, ul > li {
 
 .btn-outline.active {
   color: red; }
+
+.fa-level-down:before {
+  margin-left: 8px;
+  float: right; }
 
 * {
   list-style-type: none; }
@@ -558,31 +593,6 @@ p, ul > li {
     margin: 0 auto; }
     header .intro-text .name:hover {
       color: red;
-      background-color: white; } }
-
-@-webkit-keyframes fadeInUp {
-  0% {
-    opacity: 0;
-    -webkit-transform: translateY(0); }
-  1% {
-    -webkit-transform: translateY(20px); }
-  100% {
-    opacity: 1;
-    -webkit-transform: translateY(0); } }
-
-@keyframes fadeInUp {
-  0% {
-    opacity: 0;
-    -webkit-transform: translateY(0);
-            transform: translateY(0); }
-  1% {
-    -webkit-transform: translateY(20px);
-            transform: translateY(20px); }
-  100% {
-    opacity: 1;
-    -webkit-transform: translateY(0);
-            transform: translateY(0); } }
-
-.fadeInUp {
-  -webkit-animation-name: fadeInUp;
-  animation-name: fadeInUp; }
+      background-color: white; }
+  .panel-heading {
+    width: 90%; } }

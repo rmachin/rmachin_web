@@ -9,8 +9,10 @@ a
 
 
 
+
 h3
   color: red
+  text-align: center
 
 // Portfolio pop up description align text
 .modal-body
@@ -79,7 +81,7 @@ hr.star-primary:after
       .caption
         background: rgba(179, 48, 48, 0.7)
 
-// about me section
+// Resume section
 section.success
     background: rgb(115, 164, 209)
     text-align: left
@@ -90,13 +92,17 @@ section.success
 
 .panel-body > p
   color: black
-h3, h4, h5, h6, ul
+
+h4, h5, h6, ul
   color: black
   top: 0px
   bottom: 0px
-h3
+  margin-left: 15px
+
+#objective > p
   text-align: center
-  color: red
+  font-weight: 700
+
 p, ul
   margin-top: 10px
 p, ul > li
@@ -107,7 +113,31 @@ p, ul > li
   padding: 3px
   line-height: 22px
 
+.panel
+  margin-bottom: 10px
+  background-color: rgb(224, 232, 242)
+  border-radius: 15px
+  box-shadow: 0 -3px 5px rgba(0, 0, 0, 0.1)
 
+.panel-heading
+  border-radius: 100px
+  width: 36%
+  margin: 8px 0px 0px 6px
+  h3
+    color: rgba(186, 9, 9, 0.86)
+    font-size: 1.5em
+    text-align: left
+    margin-left: 5px
+  h4
+    margin-left: 15px
+
+.panel-default
+    border-color: #e0e8f2
+    &:last-child .panel-heading
+      border-color: darkgrey
+
+#expert
+  margin: 4px 5px
 
 // contact section send button
 .btn-success
@@ -133,6 +163,11 @@ p, ul > li
 
 .btn-outline.active
     color: red
+
+.fa-level-down
+  &:before
+    margin-left: 8px
+    float: right
 
 // contact list style none
 *
@@ -211,6 +246,8 @@ p, ul > li
        &:hover
          color: red
          background-color: white
+  .panel-heading
+    width: 90%
 
 
 
