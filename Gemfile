@@ -3,7 +3,6 @@ source 'https://rubygems.org'
 ruby '2.4.1'
 
 gem "jekyll"
-gem 'pg'
 gem 'rails_12factor', group: :production
 gem 'puma'
 # Use SCSS for stylesheets
