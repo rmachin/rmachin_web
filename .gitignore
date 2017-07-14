@@ -7,6 +7,7 @@ _site/
 .sass-cache/
 .jekyll-metadata
 assets/img/**
+Gemfile.lock
 
 ### OSX ###
 *.DS_Store
