@@ -3,8 +3,10 @@ title: RMachin
 email: rmachin75@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Full-stack Web Developer
-baseurl: "/assets" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://classique-chocolatine-13053.herokuapp.com/" # the base hostname & protocol for your site
+
+
 
 # Social media profiles - feel free to add more here
 twitter_username: raphaelmachin

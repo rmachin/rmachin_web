@@ -2,7 +2,7 @@
 layout: post
 title:  "Git Patchwork"
 date:   2017-05-10 13:08:10 -0500
-img: img/portfolio/git_patch.png
+img: assets/img/portfolio/git_patch.png
 modalID: modalGitPatchwork
 category: Web Development
 ---

@@ -2,7 +2,7 @@
 layout: post
 title:  "DockIT"
 date:   2017-06-29 15:08:10 -0500
-img: img/portfolio/dockit.png
+img: assets/img/portfolio/dockit.png
 modalID: modalDockIt
 category: Web Development
 ---

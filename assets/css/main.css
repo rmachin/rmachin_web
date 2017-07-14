@@ -420,6 +420,7 @@ h3 {
   background: red; }
 
 header {
+  background-color: darkgrey;
   background-image: url(/assets/img/sunset.jpg);
   background-position: center bottom;
   -webkit-background-size: cover;
@@ -521,8 +522,8 @@ p, ul > li {
   background-color: black;
   border-color: black; }
 
-.help-block {
-  color: red; }
+.text-danger ul > li {
+  color: darkred; }
 
 .btn-outline:hover, .btn-outline:focus, .btn-outline:active {
   color: red; }
@@ -538,10 +539,14 @@ p, ul > li {
   list-style-type: none; }
 
 .floating-label-form-group-with-value label {
-  color: crimson; }
+  color: crimson;
+  margin-left: 20px; }
 
 .floating-label-form-group input, .floating-label-form-group textarea {
-  background-color: rgba(162, 154, 154, 0.2); }
+  background-color: rgba(130, 124, 255, 0.06);
+  padding-left: 20px;
+  -webkit-border-radius: 20px;
+          border-radius: 20px; }
 
 .alert-danger {
   text-align: center; }

@@ -2,7 +2,7 @@
 layout: post
 title:  "WyncodeLife"
 date:   2017-06-28 15:08:10 -0500
-img: img/portfolio/wyncode_life.png
+img: assets/img/portfolio/wyncode_life.png
 modalID: modalWyncodeLife
 category: Web Development
 ---

@@ -2,7 +2,7 @@
 layout: post
 title:  "Html Color Game"
 date:   2017-05-05 13:08:10 -0500
-img: img/portfolio/html_color.png
+img: assets/img/portfolio/html_color.png
 modalID: modalHtmlColorGame
 category: Web Development
 ---

@@ -2,7 +2,7 @@
 layout: post
 title:  "Url Shortener with Heroku"
 date:   2017-05-05 13:08:10 -0500
-img: img/portfolio/url_shortener.png
+img: assets/img/portfolio/url_shortener.png
 modalID: modalUrlShortener
 category: Web Development
 ---
