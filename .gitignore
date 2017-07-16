@@ -10,6 +10,7 @@ assets/img/**
 Gemfile.lock
 vendor
 s3_website.yml
+.asset-cache
 
 ### OSX ###
 *.DS_Store
