@@ -8,6 +8,8 @@ _site/
 .jekyll-metadata
 assets/img/**
 Gemfile.lock
+vendor
+s3_website.yml
 
 ### OSX ###
 *.DS_Store
