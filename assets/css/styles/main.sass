@@ -107,7 +107,7 @@ h4, h5, h6, ul
 p, ul
   margin-top: 10px
 p, ul > li
-  list-style-type: square
+  list-style-type: circle
   font-weight: 400
   font-size: 1.2em
   text-transform: none
@@ -143,16 +143,18 @@ p, ul > li
 
 // contact section send button
 .btn-success
-  &:hover, &:focus, &:active
+  background-color: darkred
+  border-color: darkred
+  &:hover
     background-color: red
     border-color: red
-  &:active:focus
-    background-color: red
-    border-color: black
+  &:focus, &:active, &:active:focus
+    background-color: darkred
+    border-color: darkred
 
-.btn-success
-    background-color: black
-    border-color: black
+// .btn-success
+//     background-color: red
+//     border-color: black
 
 // contact form alert messages
 
@@ -197,8 +199,8 @@ p, ul > li
 // footer always learning image
 
 @media (min-width: 992px)
-  .col-md-3
-    margin-top: 24%
+  .col-md-2, .col-md-4
+    margin-top: 20%
 
 // text for main profile picture
 @media (min-width: 768px)

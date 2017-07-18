@@ -7,8 +7,6 @@ section#contact
 				hr.star-primary
 		.row
 			.col-lg-8.col-lg-offset-2
-				// To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19.
-				// The form should work on most web servers, but if the form is not working you may need to configure your web server differently.
 				form#contactForm(name='sentMessage', novalidate='')
 					.row.control-group
 						.form-group.col-xs-12.floating-label-form-group.controls
@@ -28,7 +26,7 @@ section#contact
 					.row.control-group
 						.form-group.col-xs-12.floating-label-form-group.controls
 							label Message
-							textarea#message.form-control(rows='5', placeholder='Message', required='', data-validation-required-message='Please enter a message.')
+							textarea#message.form-control(rows='2', placeholder='Message', required='', data-validation-required-message='Please enter a message.')
 							p.help-block.text-danger
 					br
 					#success

@@ -474,7 +474,7 @@ p, ul {
   margin-top: 10px; }
 
 p, ul > li {
-  list-style-type: square;
+  list-style-type: circle;
   font-weight: 400;
   font-size: 1.2em;
   text-transform: none;
@@ -510,17 +510,15 @@ p, ul > li {
 #expert {
   margin: 4px 5px; }
 
-.btn-success:hover, .btn-success:focus, .btn-success:active {
-  background-color: red;
-  border-color: red; }
-
-.btn-success:active:focus {
-  background-color: red;
-  border-color: black; }
-
 .btn-success {
-  background-color: black;
-  border-color: black; }
+  background-color: darkred;
+  border-color: darkred; }
+  .btn-success:hover {
+    background-color: red;
+    border-color: red; }
+  .btn-success:focus, .btn-success:active, .btn-success:active:focus {
+    background-color: darkred;
+    border-color: darkred; }
 
 .text-danger ul > li {
   color: darkred; }
@@ -552,8 +550,8 @@ p, ul > li {
   text-align: center; }
 
 @media (min-width: 992px) {
-  .col-md-3 {
-    margin-top: 24%; } }
+  .col-md-2, .col-md-4 {
+    margin-top: 20%; } }
 
 @media (min-width: 768px) {
   #profile {
