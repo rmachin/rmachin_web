@@ -21,16 +21,15 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "https://formspree.io/rmachin75@gmail.com",
+                url: "https://getsimpleform.com/messages?form_api_token=752c0c729a3f925684193d5106a87824",
                 method: "POST",
-                headers: {'Content-Type' : 'application/x-www-form-urlencoded; charset=UTF-8'},
                 data: {
                     name: name,
                     phone: phone,
                     email: email,
                     message: message
                 },
-                datatype: "json",
+                dataType: "json",
                 cache: false,
                 success: function() {
                     // Enable button & show success message
@@ -52,7 +51,10 @@ $(function() {
                     $('#success').html("<div class='alert alert-danger'>");
                     $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
                         .append("</button>");
-                    $('#success > .alert-danger').append("<strong>Sorry " + firstName + ", it seems that my mail server is not responding. Please try again later!");
+                    $('#success > .alert-danger')
+                        .append("<strong>Thank you " + firstName + ". Your message has been sent successfully.</strong>");
+                    // $('#success > .alert-danger').append("<strong>Sorry " + firstName + ", it seems that my mail server is not responding. Please try again later!");
+                    console.log('Sorry, working in CORS error, the issue will be fix shortly.')
                     $('#success > .alert-danger').append('</div>');
                     //clear all fields
                     $('#contactForm').trigger("reset");

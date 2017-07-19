@@ -192,8 +192,15 @@ p, ul > li
     padding-left: 20px
     border-radius: 20px
 
-.alert-danger
-  text-align: center
+#success
+  margin: auto
+  width: 80%
+  .alert.alert-danger
+    text-align: center
+    color: black
+    background-color: lightgreen
+    border-color: lightgreen
+    width: 100%
 
 
 // footer always learning image
@@ -232,6 +239,23 @@ p, ul > li
 
 
 @media (max-width: 768px)
+  #profile
+    width: 40%
+  header
+    .intro-text
+      .name
+         color: red
+         background-color: white
+         border-radius: 50px
+         width: 300px
+         display: inline-block
+  .panel-heading
+    width: 90%
+  #success
+    margin: auto
+    width: 80%
+    .alert.alert-danger
+      width: 100%
   #footer-lang
     width: 300px
     height: auto
@@ -240,25 +264,6 @@ p, ul > li
       &:hover
         background-color: lightgray
         border-color: lightgray
-  #profile
-    width: 40%
-  header
-    .intro-text
-      .name
-       font-weight: 700
-       font-size: 2em
-       text-transform: capitalize
-       // color: darkgrey
-       color: rgba(87, 87, 87, 0.70)
-       background-color: rgba(199, 216, 222, 0.30)
-       border-radius: 80px
-       width: 250px
-       margin: 0 auto
-       &:hover
-         color: red
-         background-color: white
-  .panel-heading
-    width: 90%
 
 
 
