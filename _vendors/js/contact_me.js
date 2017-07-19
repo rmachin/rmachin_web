@@ -58,6 +58,7 @@ $(function() {
                     $('#success > .alert-danger').append('</div>');
                     //clear all fields
                     $('#contactForm').trigger("reset");
+                      setTimeout(location.reload.bind(location), 2500);
                 },
             });
         },
