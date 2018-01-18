@@ -4,6 +4,7 @@ node_modules
 
 ### Jekyll ###
 _site/
+_layouts
 .sass-cache/
 .jekyll-metadata
 assets/img/**
